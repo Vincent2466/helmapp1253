@@ -2,11 +2,11 @@
 apiVersion: v1
 kind: Service
 metadata: 
-  name: nikhil
+  name: helm
 spec: 
   ports: 
     - 
       port: 5000
       targetPort: 8080
   selector: 
-    app: nikhil
+    app: helm
