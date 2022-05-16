@@ -15,7 +15,7 @@ spec:
       containers: 
         - 
           image: vincent53/helm
-          name: nikhil
+          name: helm
           ports: 
             - 
               containerPort: 6000
